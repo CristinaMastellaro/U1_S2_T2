@@ -1,6 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
+    background-color: #E9EDEE;
 }
 
 .logo_amazon {
@@ -32,14 +33,105 @@ header a {
 
 /* Main */
 
+h4 {
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
 main, footer {
     text-align: center;
 }
 
 main {
-    padding: 2em;
+    padding: 0 1em;
 }
 
-main + section {
+main section {
+    margin: 2em;
+}
+
+/* First section */
+
+main #first_sec {
     background-color: #F56600;
+    color: white;
+    padding: 0.5em;
+}
+
+/* Second section */
+
+#second_sec {
+    background-image: url("../images/bg-image.png");
+    padding: 3em 0;
+    color: white;
+}
+
+#second_sec div {
+    background-color: #306E63;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#second_sec h1 {
+    font-weight: bold;
+    font-size: 2.5em;
+    margin: 1em 0;
+}
+
+/* Third section */
+
+#third_sec {
+    background-color: white;
+}
+
+#third_sec #third_sec_div {
+    width: 30%;
+}
+
+#third_sec .inside_div {
+    display: inline-block;
+    padding: 0.5em 0.5em 0 0.8em;  
+}
+
+#third_sec a {
+    color: #185A6A;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#third_sec .image {
+    display: inline-block;
+    height: 350px;
+    width: 22%;
+    margin: 1em 1em;
+    border-radius: 25px;
+    background-size:cover;
+    background-position: 50% 10%;
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px 15px 2px rgba(0,0,0,0.17);
+}
+
+#img1 {
+    background-image: url("../images/img_1.jpg");
+}
+
+#img2 {
+    background-image: url("../images/img_2.jpg");
+}
+
+#img3 {
+    background-image: url("../images/img_3.jpg");
+}
+
+#img4 {
+    background-image: url("../images/img_4.jpg");
+}
+
+/* Forth section */
+
+#forth_sec img {
+    height: 350px;
+    width: 100%;
 }
