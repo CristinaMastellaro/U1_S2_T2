@@ -26,6 +26,8 @@ pets.sort();
     Scrivi del codice per stampare nuovamente in console gli elementi dell'array "pets", questa volta in ordine invertito.
 */
 
+console.log("Now let's re-write the list, but starting from the last pet!");
+
 for (let i = pets.length - 1; i >= 0; i--) {
   console.log(pets[i]);
 }
@@ -87,6 +89,7 @@ let newCar = {
   model: "Punto",
   color: "white",
   trims: ["vintage", "indestructable", "overused"],
+  licensePlate: "FW575ET",
 };
 
 cars.push(newCar);
@@ -103,13 +106,16 @@ console.log(
 /* ESERCIZIO 7
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
 */
+
 const justTrims = [];
 
 for (let i = 0; i < cars.length; i++) {
   justTrims.push(cars[i].trims[0]);
 }
 
-console.log(justTrims);
+console.log(
+  "This is the first property in the Trims section of each car: " + justTrims
+);
 
 /* ESERCIZIO 8
     Cicla l'array "cars" e costruisci un if/else statament per mostrare due diversi messaggi in console. Se la prima lettera della proprietà
