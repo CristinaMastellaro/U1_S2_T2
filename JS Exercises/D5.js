@@ -84,7 +84,7 @@ console.log(cars);
     Successivamente, rimuovi l'ultimo elemento della proprietà "trims" da ogni auto.
 */
 
-let newCar = {
+const newCar = {
   brand: "Fiat",
   model: "Punto",
   color: "white",
@@ -114,7 +114,7 @@ for (let i = 0; i < cars.length; i++) {
 }
 
 console.log(
-  "This is the first property in the Trims section of each car: " + justTrims
+  "This is the first property in the 'trims' section of each car: " + justTrims
 );
 
 /* ESERCIZIO 8
